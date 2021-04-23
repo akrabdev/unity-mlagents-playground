@@ -269,7 +269,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743072009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.11, y: 0.65, z: 3.87}
+  m_LocalPosition: {x: 19.88, y: 0.65, z: -20.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -463,7 +463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400237611}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: 3.17, z: 8.72}
+  m_LocalPosition: {x: -0.13, y: 3.17, z: -20.41}
   m_LocalScale: {x: 5.0648737, y: 4.8423147, z: 1.105674}
   m_Children: []
   m_Father: {fileID: 0}
@@ -953,15 +953,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
-    - target: {fileID: 8409850220096736637, guid: da363fca8360e41dea9b822b41063802,
-        type: 3}
-      propertyPath: waypoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 1998381735}
-    - target: {fileID: 8409850220096736637, guid: da363fca8360e41dea9b822b41063802,
-        type: 3}
-      propertyPath: waypoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 2108788103}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da363fca8360e41dea9b822b41063802, type: 3}
