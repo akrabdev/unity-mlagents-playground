@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor.AI;
@@ -16,11 +16,11 @@ public class PlayerSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         x = Random.Range(xmin, xmax + 1);
         z = Random.Range(zmin, zmax + 1);
         Instantiate(player, new Vector3((float)x, 1.15f, (float)z), Quaternion.identity);
-        NavMeshBuilder.ClearAllNavMeshes();
-        NavMeshBuilder.BuildNavMesh();
+       
 
 
     }
