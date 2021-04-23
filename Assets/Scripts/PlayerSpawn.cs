@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.AI;
 
 public class PlayerSpawn : MonoBehaviour
 {
@@ -17,7 +18,9 @@ public class PlayerSpawn : MonoBehaviour
     {
         x = Random.Range(xmin, xmax + 1);
         z = Random.Range(zmin, zmax + 1);
-        Instantiate(player, new Vector3(x, 1, z), Quaternion.identity);
+        Instantiate(player, new Vector3((float)x, 1.15f, (float)z), Quaternion.identity);
+        NavMeshBuilder.ClearAllNavMeshes();
+        NavMeshBuilder.BuildNavMesh();
 
 
     }
